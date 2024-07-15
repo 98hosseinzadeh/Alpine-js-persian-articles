@@ -52,7 +52,7 @@ Attribute
 HTML
 اضافه کردیم یک شمارنده ساده ساختیم.
 
-![counter](./images/cunter-example.gif)
+![counter](../images/cunter-example.gif)
 
 بیایید آنچه اتفاق افتاد رو تفسیر کنیم :
 
