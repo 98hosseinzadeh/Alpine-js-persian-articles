@@ -1,6 +1,6 @@
 # Alpine js persian tutorial
 ### آموزش فارسی Alpine js
-**فهرست**
+## فهرست
 - [شروع](./articles/start.md)
 
 > سلام به همگی
@@ -12,5 +12,5 @@
 > `98hosseinzadeh@gmail.com`
 > در تماس باشد
 
-##### نویسنده
+### نویسنده
 **حمیدرضا حسین زاده**
