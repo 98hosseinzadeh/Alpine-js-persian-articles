@@ -1,7 +1,8 @@
 # Alpine js persian tutorial
+![tutorial-picture](./source/images/cover.svg)
 ### آموزش فارسی Alpine js
-## فهرست
-- [شروع](./articles/start.md)
+### فهرست
+- [شروع](./source/lessons/1-start.md)
 
 > سلام به همگی
 > من برنامه ریزی کردم به صورت پیوسته آموزش 
