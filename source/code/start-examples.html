@@ -4,11 +4,47 @@
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
 </head>
 <body>
-
-    <div x-data="{ count: 0 }">
+    <!-- counter example -->
+    <!-- <div x-data="{ count: 0 }">
         <button x-on:click="count++">Increment</button>
  
         <span x-text="count"></span>
+    </div> -->
+
+    <!-- dropdown example -->
+    <!-- <div x-data="{ open: false }">
+    <button @click="open = ! open">Toggle</button>
+ 
+    <div x-show="open" @click.outside="open = false">
+        <ul>
+            <li>item one</li>
+            <li>item two</li>
+            <li>item three</li>
+        </ul>
     </div>
+</div> -->
+
+<!-- input search example -->
+<div
+    x-data="{
+        search: '',
+ 
+        items: ['foo', 'bar', 'baz'],
+ 
+        get filteredItems() {
+            return this.items.filter(
+                i => i.startsWith(this.search)
+            )
+        }
+    }"
+>
+    <input x-model="search" placeholder="Search...">
+ 
+    <ul>
+        <template x-for="item in filteredItems" :key="item">
+            <li x-text="item"></li>
+        </template>
+    </ul>
+</div>
 </body>
 </html>
